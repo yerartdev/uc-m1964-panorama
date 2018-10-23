@@ -1,0 +1,29 @@
+1. Hacer una script (kernel.sh) que:
+
+o Descargue el kernel de linux más reciente https://git.kernel.org/torvalds/t/linux-4.19-rc6.tar.gz (cuidado, son 150MB)
+
+o Que lo descomprima (cuidado, es 1GB)
+
+o Que localice todas las scripts de python que contiene este archivo
+
+o Que localice aquellas que usan la librería datetime
+
+o Que averigue cual es la script de mayor tamaño de éstas
+
+o Que muestre únicamente las funciones y clases (con sus métodos) que define
+
+o ¿cuál es el nombre de la única script del kernel que hace uso de estas funciones?
+
+2. Hacer una script  (elements.sh) que:
+
+o Descargue el fichero http://swcarpentry.github.io/shell-novice/data/data-shell.zip
+
+o Que lo descomprima
+
+o Que lea los ficheros xml que hay en el directorio data/elements y los copie en otro directorio (nuevo) llamado elements_by_atomic_number, de forma que los nombres de fichero sean del tipo 008_Oxigen.xml.
+
+o Que cambie los permisos de estos ficheros para que sean editables por el grupo y para que no los pueda ver ni editar el resto de usuarios.
+
+o Que cree un fichero tar.gz con estos ficheros y elimine los ficheros y directorios intermedios.
+
+Nota: Para descomprimir ficheros tar.gz, consultad la chuleta y la ayuda (--help) del comando tar. Consultad vuestras dudas a través del foro de la asignatura
