@@ -1,0 +1,6 @@
+linux-4.19-rc7/tools/perf/scripts/python/export-to-sqlite.py
+linux-4.19-rc7/tools/perf/scripts/python/export-to-postgresql.py
+linux-4.19-rc7/tools/power/pm-graph/sleepgraph.py
+linux-4.19-rc7/tools/power/pm-graph/bootgraph.py
+linux-4.19-rc7/tools/power/x86/intel_pstate_tracer/intel_pstate_tracer.py
+linux-4.19-rc7/tools/testing/selftests/bpf/test_offload.py
